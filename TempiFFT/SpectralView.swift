@@ -25,6 +25,7 @@ class SpectralView: UIView {
         // We're drawing static labels every time through our drawRect() which is a waste.
         // If this were more than a demo we'd take care to only draw them once.
         self.drawLabels(context: context!)
+        self.drawLabelsHMB(context: context!)
     }
     
     private func drawSpectrum(context: CGContext) {
@@ -112,7 +113,28 @@ class SpectralView: UIView {
             x = freq / samplesPerPixel - pointSize / 2.0
             attrStr.draw(at: CGPoint(x: x, y: -40))
         }
+        context.restoreGState()
+    }
+    
+    //--- HMB Applause-O-Meter
+    private func drawLabelsHMB(context: CGContext) {
+        let viewWidth = self.bounds.size.width
+        let viewHeight = self.bounds.size.height
         
+        context.saveGState()
+        context.translateBy(x: 0, y: viewHeight);
+        
+        let pointSize: CGFloat = 15.0
+        let font = UIFont.systemFont(ofSize: pointSize, weight: .regular)
+        
+        let freqLabelStr = "Display Applause-O-Meter"
+        var attrStr = NSMutableAttributedString(string: freqLabelStr)
+        attrStr.addAttribute(.font, value: font, range: NSMakeRange(0, freqLabelStr.count))
+        attrStr.addAttribute(.foregroundColor, value: UIColor.yellow, range: NSMakeRange(0, freqLabelStr.count))
+        
+        var x: CGFloat = viewWidth - attrStr.size().width
+        attrStr.draw(at: CGPoint(x: x, y: -22))
+
         context.restoreGState()
     }
 }
