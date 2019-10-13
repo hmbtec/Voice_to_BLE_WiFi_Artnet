@@ -93,7 +93,7 @@ class SpectralView: UIView {
         let pointSize: CGFloat = 15.0
         let font = UIFont.systemFont(ofSize: pointSize, weight: .regular)
         
-        let freqLabelStr = "Frequency (kHz)"
+        let freqLabelStr = "Audio Frequency [kHz]"
         var attrStr = NSMutableAttributedString(string: freqLabelStr)
         attrStr.addAttribute(.font, value: font, range: NSMakeRange(0, freqLabelStr.count))
         attrStr.addAttribute(.foregroundColor, value: UIColor.yellow, range: NSMakeRange(0, freqLabelStr.count))
@@ -130,12 +130,12 @@ class SpectralView: UIView {
         let pointSize1: CGFloat = 30.0
         let font1 = UIFont.systemFont(ofSize: pointSize1, weight: .regular)
         
-        let titleLabelStr = "HMB|TEC Applause-O-Meter V1.0"
+        let titleLabelStr = "HMB|TEC Applause-O-Meter"
         var attrStr = NSMutableAttributedString(string: titleLabelStr)
         attrStr.addAttribute(.font, value: font1, range: NSMakeRange(0, titleLabelStr.count))
         attrStr.addAttribute(.foregroundColor, value:UIColor(red:116/255.0, green: 164/255.0, blue: 248/255.0, alpha: 1.0), range: NSMakeRange(0, titleLabelStr.count))
         
-        var x1: CGFloat = viewWidth / 2.0 - attrStr.size().width / 2.0
+        var x1: CGFloat = 0.0 // viewWidth / 2.0 - attrStr.size().width / 2.0
         attrStr.draw(at: CGPoint(x: x1, y: 5-viewHeight))
         
         context.restoreGState()

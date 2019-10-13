@@ -14,14 +14,18 @@ class SpectralViewController: UIViewController {
     @IBOutlet weak var spectralView: SpectralView!
     
     var audioInput: TempiAudioInput!
+    var isAnalysis:Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
  
 //----start ---------------
-        let button = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 50))
-        button.backgroundColor = .green
-        button.setTitle("Refresh", for: .normal)
+        let screenWidth = UIScreen.main.bounds.size.width
+        let screenHeight = UIScreen.main.bounds.size.height
+
+        let button = UIButton(frame: CGRect(x: screenWidth-150, y: 10, width: 130, height: 30))
+        button.backgroundColor = .systemBlue
+        button.setTitle("Start Analysis", for: .normal)
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
 
         self.view.addSubview(button)//-----------------------
@@ -39,7 +43,16 @@ class SpectralViewController: UIViewController {
 //--- start --------------------
 
     @objc func buttonAction(sender: UIButton!) {
-      print("Button tapped")
+      print("REFRESH Button tapped")
+        if(isAnalysis == false){
+            isAnalysis=true
+            sender.backgroundColor = .systemRed
+            sender.setTitle("Stop Analysis", for: .normal)
+        }else{
+            isAnalysis=false
+            sender.backgroundColor = .systemGreen
+            sender.setTitle("Start Analysis", for: .normal)
+        }
     }
 //---- end --------------------
     
