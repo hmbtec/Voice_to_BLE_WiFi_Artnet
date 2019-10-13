@@ -5,6 +5,8 @@
 //  Created by John Scalo on 1/20/16.
 //  Copyright © 2016 John Scalo. All rights reserved.
 //
+//  https://github.com/jscalo/tempi-fft
+//
 
 import UIKit
 
@@ -124,17 +126,18 @@ class SpectralView: UIView {
         context.saveGState()
         context.translateBy(x: 0, y: viewHeight);
         
-        let pointSize: CGFloat = 15.0
-        let font = UIFont.systemFont(ofSize: pointSize, weight: .regular)
+        //---- Title Applaus-O-Meter
+        let pointSize1: CGFloat = 30.0
+        let font1 = UIFont.systemFont(ofSize: pointSize1, weight: .regular)
         
-        let freqLabelStr = "Display Applause-O-Meter"
-        var attrStr = NSMutableAttributedString(string: freqLabelStr)
-        attrStr.addAttribute(.font, value: font, range: NSMakeRange(0, freqLabelStr.count))
-        attrStr.addAttribute(.foregroundColor, value: UIColor.yellow, range: NSMakeRange(0, freqLabelStr.count))
+        let titleLabelStr = "HMB|TEC Applause-O-Meter V1.0"
+        var attrStr = NSMutableAttributedString(string: titleLabelStr)
+        attrStr.addAttribute(.font, value: font1, range: NSMakeRange(0, titleLabelStr.count))
+        attrStr.addAttribute(.foregroundColor, value:UIColor(red:116/255.0, green: 164/255.0, blue: 248/255.0, alpha: 1.0), range: NSMakeRange(0, titleLabelStr.count))
         
-        var x: CGFloat = viewWidth - attrStr.size().width
-        attrStr.draw(at: CGPoint(x: x, y: -22))
-
+        var x1: CGFloat = viewWidth / 2.0 - attrStr.size().width / 2.0
+        attrStr.draw(at: CGPoint(x: x1, y: 5-viewHeight))
+        
         context.restoreGState()
     }
 }
