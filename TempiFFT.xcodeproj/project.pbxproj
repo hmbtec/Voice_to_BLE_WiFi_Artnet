@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FAB0CC52360E144004C27C6 /* UDPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0CBD2360E144004C27C6 /* UDPViewController.swift */; };
+		4FAB0CC72360E144004C27C6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0CBF2360E144004C27C6 /* Config.swift */; };
+		4FAB0CC92360E144004C27C6 /* UDPBroadcastConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0CC22360E144004C27C6 /* UDPBroadcastConnectionError.swift */; };
+		4FAB0CCA2360E144004C27C6 /* UDPBroadcastConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0CC42360E144004C27C6 /* UDPBroadcastConnection.swift */; };
+		4FAB0CCF2360E165004C27C6 /* UDPBroadcastConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0CCC2360E165004C27C6 /* UDPBroadcastConnectionError.swift */; };
+		4FAB0CD02360E165004C27C6 /* UDPBroadcastConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB0CCE2360E165004C27C6 /* UDPBroadcastConnection.swift */; };
+		4FAB0CD22360E757004C27C6 /* Main_UDP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB0CD12360E757004C27C6 /* Main_UDP.storyboard */; };
+		4FE869F223534CBB005A406D /* BTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE869F123534CBB005A406D /* BTManager.swift */; };
+		4FE869F623534D14005A406D /* BTDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE869F523534D14005A406D /* BTDevice.swift */; };
+		4FE869F923534D34005A406D /* BTUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE869F723534D34005A406D /* BTUUIDs.swift */; };
+		4FE869FA23534D34005A406D /* BTUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE869F823534D34005A406D /* BTUtils.swift */; };
 		EF140AE122C3E76C0079D5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF140AE322C3E76C0079D5FD /* Main.storyboard */; };
 		EF7009141C3ED07100E75ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7009131C3ED07100E75ECF /* AppDelegate.swift */; };
 		EF7009161C3ED07100E75ECF /* SpectralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7009151C3ED07100E75ECF /* SpectralViewController.swift */; };
@@ -17,9 +28,27 @@
 		EFAC3F461C406DC5002CD63F /* TempiUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC3F451C406DC5002CD63F /* TempiUtilities.swift */; };
 		EFAC3F481C45C719002CD63F /* TempiFFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC3F471C45C719002CD63F /* TempiFFT.swift */; };
 		EFAC3F4E1C4D7B76002CD63F /* TempiDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC3F4D1C4D7B76002CD63F /* TempiDebug.swift */; };
+		FE6379AF2354A0F9008AE659 /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6379AE2354A0F9008AE659 /* FirstScreenVC.swift */; };
+		FE892D892355AA8E00518D56 /* DeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE892D872355AA8E00518D56 /* DeviceVC.swift */; };
+		FE892D8A2355AA8E00518D56 /* NearbyDevicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE892D882355AA8E00518D56 /* NearbyDevicesVC.swift */; };
+		FE892D8C2355AA9D00518D56 /* Main_Bluetooth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE892D8B2355AA9D00518D56 /* Main_Bluetooth.storyboard */; };
+		FE892D8E2355DAD400518D56 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE892D8D2355DAD400518D56 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FAB0CBD2360E144004C27C6 /* UDPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPViewController.swift; sourceTree = "<group>"; };
+		4FAB0CBF2360E144004C27C6 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		4FAB0CC22360E144004C27C6 /* UDPBroadcastConnectionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPBroadcastConnectionError.swift; sourceTree = "<group>"; };
+		4FAB0CC32360E144004C27C6 /* UDPBroadcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPBroadcast.h; sourceTree = "<group>"; };
+		4FAB0CC42360E144004C27C6 /* UDPBroadcastConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPBroadcastConnection.swift; sourceTree = "<group>"; };
+		4FAB0CCC2360E165004C27C6 /* UDPBroadcastConnectionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPBroadcastConnectionError.swift; sourceTree = "<group>"; };
+		4FAB0CCD2360E165004C27C6 /* UDPBroadcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPBroadcast.h; sourceTree = "<group>"; };
+		4FAB0CCE2360E165004C27C6 /* UDPBroadcastConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPBroadcastConnection.swift; sourceTree = "<group>"; };
+		4FAB0CD12360E757004C27C6 /* Main_UDP.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_UDP.storyboard; sourceTree = "<group>"; };
+		4FE869F123534CBB005A406D /* BTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTManager.swift; sourceTree = "<group>"; };
+		4FE869F523534D14005A406D /* BTDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTDevice.swift; sourceTree = "<group>"; };
+		4FE869F723534D34005A406D /* BTUUIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTUUIDs.swift; sourceTree = "<group>"; };
+		4FE869F823534D34005A406D /* BTUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTUtils.swift; sourceTree = "<group>"; };
 		EF140AE222C3E76C0079D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF7009101C3ED07100E75ECF /* TempiFFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempiFFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7009131C3ED07100E75ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +61,11 @@
 		EFAC3F451C406DC5002CD63F /* TempiUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempiUtilities.swift; sourceTree = "<group>"; };
 		EFAC3F471C45C719002CD63F /* TempiFFT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempiFFT.swift; sourceTree = "<group>"; };
 		EFAC3F4D1C4D7B76002CD63F /* TempiDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempiDebug.swift; sourceTree = "<group>"; };
+		FE6379AE2354A0F9008AE659 /* FirstScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenVC.swift; sourceTree = "<group>"; };
+		FE892D872355AA8E00518D56 /* DeviceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceVC.swift; sourceTree = "<group>"; };
+		FE892D882355AA8E00518D56 /* NearbyDevicesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyDevicesVC.swift; sourceTree = "<group>"; };
+		FE892D8B2355AA9D00518D56 /* Main_Bluetooth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_Bluetooth.storyboard; sourceTree = "<group>"; };
+		FE892D8D2355DAD400518D56 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +79,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FAB0CBC2360E144004C27C6 /* UDPBroadcastExample */ = {
+			isa = PBXGroup;
+			children = (
+				4FAB0CD12360E757004C27C6 /* Main_UDP.storyboard */,
+				4FAB0CBD2360E144004C27C6 /* UDPViewController.swift */,
+				4FAB0CBF2360E144004C27C6 /* Config.swift */,
+			);
+			path = UDPBroadcastExample;
+			sourceTree = "<group>";
+		};
+		4FAB0CC12360E144004C27C6 /* UDPBroadcast */ = {
+			isa = PBXGroup;
+			children = (
+				4FAB0CC22360E144004C27C6 /* UDPBroadcastConnectionError.swift */,
+				4FAB0CC32360E144004C27C6 /* UDPBroadcast.h */,
+				4FAB0CC42360E144004C27C6 /* UDPBroadcastConnection.swift */,
+			);
+			path = UDPBroadcast;
+			sourceTree = "<group>";
+		};
+		4FAB0CCB2360E165004C27C6 /* UDPBroadcast */ = {
+			isa = PBXGroup;
+			children = (
+				4FAB0CCC2360E165004C27C6 /* UDPBroadcastConnectionError.swift */,
+				4FAB0CCD2360E165004C27C6 /* UDPBroadcast.h */,
+				4FAB0CCE2360E165004C27C6 /* UDPBroadcastConnection.swift */,
+			);
+			path = UDPBroadcast;
+			sourceTree = "<group>";
+		};
+		4FE869F023534C7B005A406D /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				FE892D862355AA7E00518D56 /* UI */,
+				4FE869F123534CBB005A406D /* BTManager.swift */,
+				4FE869F523534D14005A406D /* BTDevice.swift */,
+				4FE869F823534D34005A406D /* BTUtils.swift */,
+				4FE869F723534D34005A406D /* BTUUIDs.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
 		EF7009071C3ED07100E75ECF = {
 			isa = PBXGroup;
 			children = (
+				4FAB0CC12360E144004C27C6 /* UDPBroadcast */,
+				4FAB0CCB2360E165004C27C6 /* UDPBroadcast */,
+				4FAB0CBC2360E144004C27C6 /* UDPBroadcastExample */,
+				4FE869F023534C7B005A406D /* Bluetooth */,
 				EF7009121C3ED07100E75ECF /* TempiFFT */,
 				EF7009111C3ED07100E75ECF /* Products */,
 			);
@@ -64,19 +144,31 @@
 		EF7009121C3ED07100E75ECF /* TempiFFT */ = {
 			isa = PBXGroup;
 			children = (
+				FE892D8D2355DAD400518D56 /* Constant.swift */,
 				EF7009131C3ED07100E75ECF /* AppDelegate.swift */,
-				EF7009151C3ED07100E75ECF /* SpectralViewController.swift */,
 				EF7009291C3EDFB900E75ECF /* TempiAudioInput.swift */,
 				EF7916BD1C50AA9700658A2C /* SpectralView.swift */,
 				EFAC3F471C45C719002CD63F /* TempiFFT.swift */,
 				EFAC3F451C406DC5002CD63F /* TempiUtilities.swift */,
 				EFAC3F4D1C4D7B76002CD63F /* TempiDebug.swift */,
 				EF70091A1C3ED07100E75ECF /* Assets.xcassets */,
+				EF7009151C3ED07100E75ECF /* SpectralViewController.swift */,
 				EF140AE322C3E76C0079D5FD /* Main.storyboard */,
 				EF70091C1C3ED07100E75ECF /* LaunchScreen.storyboard */,
 				EF70091F1C3ED07100E75ECF /* Info.plist */,
+				FE6379AE2354A0F9008AE659 /* FirstScreenVC.swift */,
 			);
 			path = TempiFFT;
+			sourceTree = "<group>";
+		};
+		FE892D862355AA7E00518D56 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FE892D8B2355AA9D00518D56 /* Main_Bluetooth.storyboard */,
+				FE892D882355AA8E00518D56 /* NearbyDevicesVC.swift */,
+				FE892D872355AA8E00518D56 /* DeviceVC.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +205,7 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 4U5H83GKN7;
 						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -140,8 +233,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF140AE122C3E76C0079D5FD /* Main.storyboard in Resources */,
+				4FAB0CD22360E757004C27C6 /* Main_UDP.storyboard in Resources */,
 				EF70091E1C3ED07100E75ECF /* LaunchScreen.storyboard in Resources */,
 				EF70091B1C3ED07100E75ECF /* Assets.xcassets in Resources */,
+				FE892D8C2355AA9D00518D56 /* Main_Bluetooth.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,12 +247,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE869F923534D34005A406D /* BTUUIDs.swift in Sources */,
+				4FE869FA23534D34005A406D /* BTUtils.swift in Sources */,
+				4FAB0CCF2360E165004C27C6 /* UDPBroadcastConnectionError.swift in Sources */,
+				FE892D8E2355DAD400518D56 /* Constant.swift in Sources */,
+				FE892D892355AA8E00518D56 /* DeviceVC.swift in Sources */,
+				4FAB0CC72360E144004C27C6 /* Config.swift in Sources */,
 				EF7916BE1C50AA9700658A2C /* SpectralView.swift in Sources */,
+				4FE869F623534D14005A406D /* BTDevice.swift in Sources */,
 				EFAC3F4E1C4D7B76002CD63F /* TempiDebug.swift in Sources */,
 				EF7009161C3ED07100E75ECF /* SpectralViewController.swift in Sources */,
 				EF70092A1C3EDFB900E75ECF /* TempiAudioInput.swift in Sources */,
+				4FAB0CC92360E144004C27C6 /* UDPBroadcastConnectionError.swift in Sources */,
 				EFAC3F461C406DC5002CD63F /* TempiUtilities.swift in Sources */,
+				4FE869F223534CBB005A406D /* BTManager.swift in Sources */,
+				FE6379AF2354A0F9008AE659 /* FirstScreenVC.swift in Sources */,
+				4FAB0CCA2360E144004C27C6 /* UDPBroadcastConnection.swift in Sources */,
+				FE892D8A2355AA8E00518D56 /* NearbyDevicesVC.swift in Sources */,
+				4FAB0CD02360E165004C27C6 /* UDPBroadcastConnection.swift in Sources */,
 				EFAC3F481C45C719002CD63F /* TempiFFT.swift in Sources */,
+				4FAB0CC52360E144004C27C6 /* UDPViewController.swift in Sources */,
 				EF7009141C3ED07100E75ECF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,12 +399,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4U5H83GKN7;
 				INFOPLIST_FILE = TempiFFT/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.hmbtec.TempiHarness;
+				PRODUCT_BUNDLE_IDENTIFIER = de.hmbtec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -304,12 +416,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4U5H83GKN7;
 				INFOPLIST_FILE = TempiFFT/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.hmbtec.TempiHarness;
+				PRODUCT_BUNDLE_IDENTIFIER = de.hmbtec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
