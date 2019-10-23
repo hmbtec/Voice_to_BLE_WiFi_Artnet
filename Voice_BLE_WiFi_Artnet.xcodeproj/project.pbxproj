@@ -50,7 +50,7 @@
 		4FE869F723534D34005A406D /* BTUUIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTUUIDs.swift; sourceTree = "<group>"; };
 		4FE869F823534D34005A406D /* BTUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTUtils.swift; sourceTree = "<group>"; };
 		EF140AE222C3E76C0079D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF7009101C3ED07100E75ECF /* TempiFFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempiFFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7009101C3ED07100E75ECF /* Voice_BLE_WiFi_Artnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voice_BLE_WiFi_Artnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7009131C3ED07100E75ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF7009151C3ED07100E75ECF /* SpectralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectralViewController.swift; sourceTree = "<group>"; };
 		EF70091A1C3ED07100E75ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		EF7009111C3ED07100E75ECF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF7009101C3ED07100E75ECF /* TempiFFT.app */,
+				EF7009101C3ED07100E75ECF /* Voice_BLE_WiFi_Artnet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF70090F1C3ED07100E75ECF /* TempiFFT */ = {
+		EF70090F1C3ED07100E75ECF /* Voice_BLE_WiFi_Artnet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF7009221C3ED07100E75ECF /* Build configuration list for PBXNativeTarget "TempiFFT" */;
+			buildConfigurationList = EF7009221C3ED07100E75ECF /* Build configuration list for PBXNativeTarget "Voice_BLE_WiFi_Artnet" */;
 			buildPhases = (
 				EF70090C1C3ED07100E75ECF /* Sources */,
 				EF70090D1C3ED07100E75ECF /* Frameworks */,
@@ -186,9 +186,9 @@
 			);
 			dependencies = (
 			);
-			name = TempiFFT;
+			name = Voice_BLE_WiFi_Artnet;
 			productName = TempiHarness;
-			productReference = EF7009101C3ED07100E75ECF /* TempiFFT.app */;
+			productReference = EF7009101C3ED07100E75ECF /* Voice_BLE_WiFi_Artnet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EF70090B1C3ED07100E75ECF /* Build configuration list for PBXProject "TempiFFT" */;
+			buildConfigurationList = EF70090B1C3ED07100E75ECF /* Build configuration list for PBXProject "Voice_BLE_WiFi_Artnet" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,7 +222,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF70090F1C3ED07100E75ECF /* TempiFFT */,
+				EF70090F1C3ED07100E75ECF /* Voice_BLE_WiFi_Artnet */,
 			);
 		};
 /* End PBXProject section */
@@ -432,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF70090B1C3ED07100E75ECF /* Build configuration list for PBXProject "TempiFFT" */ = {
+		EF70090B1C3ED07100E75ECF /* Build configuration list for PBXProject "Voice_BLE_WiFi_Artnet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF7009201C3ED07100E75ECF /* Debug */,
@@ -441,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF7009221C3ED07100E75ECF /* Build configuration list for PBXNativeTarget "TempiFFT" */ = {
+		EF7009221C3ED07100E75ECF /* Build configuration list for PBXNativeTarget "Voice_BLE_WiFi_Artnet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF7009231C3ED07100E75ECF /* Debug */,
